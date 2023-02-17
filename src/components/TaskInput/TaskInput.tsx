@@ -37,7 +37,9 @@ export default function TaskInput(props: ITaskInputProps) {
           type='text'
           placeholder='Note here'
         />
-        <button type='submit'>{currentTodo ? '✔' : '+'}</button>
+        <button className={currentTodo ? style.add : style.edit} type='submit'>
+          {currentTodo ? '✔' : '+'}
+        </button>
       </form>
     </div>
   )

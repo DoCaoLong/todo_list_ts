@@ -33,4 +33,14 @@
     border: 1px solid #ccc;
     cursor: pointer;
   }
+  button.add {
+    background-color: #45b9d3;
+    border: 1px solid transparent;
+    color: #fff;
+  }
+  button.edit {
+    background-color: #a2d89e;
+    border: 1px solid transparent;
+    color: #fff;
+  }
 }

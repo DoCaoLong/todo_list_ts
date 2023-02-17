@@ -1,5 +1,7 @@
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #383f50;
 }
 .task {
   display: flex;
@@ -27,14 +29,26 @@
 
 .taskActions {
   display: flex;
-  grid-gap: 0 4px;
+  grid-gap: 0 6px;
   justify-content: space-between;
 }
 .taskBtn {
   width: 3rem;
+  height: 3rem;
   font-size: 1.8rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0.7rem;
+  outline: none;
+  border: 0;
+}
+.taskBtn:first-child {
+  background-color: #45b9d3;
+  color: #fff;
+}
+.taskBtn:last-child {
+  background-color: #ee6955;
+  color: #fff;
 }
