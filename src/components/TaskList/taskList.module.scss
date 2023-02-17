@@ -9,18 +9,17 @@
   }
 }
 .taskCheckbox {
+  cursor: pointer;
   flex: 0 0 10%;
-  max-width: 10%;
   height: 2rem;
   margin-top: 0.5rem;
-  cursor: pointer;
+  max-width: 10%;
 }
 .taskName {
-  flex: 0 0 70%;
-  max-width: 70%;
-  padding: 0 0 0.5rem;
+  width: 100%;
   color: #383f50;
   word-wrap: break-word;
+  padding: 0 0 0.5rem;
   &.taskNameDone {
     color: #b2b7bb;
     text-decoration: line-through;
@@ -28,14 +27,15 @@
 }
 
 .taskActions {
-  flex: 0 0 20%;
-  max-width: 20%;
   display: flex;
+  grid-gap: 0 4px;
   justify-content: space-between;
 }
 .taskBtn {
-  flex: 0 0 3.5rem;
-  max-width: 3.5rem;
+  width: 3rem;
   font-size: 1.8rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
