@@ -29,13 +29,13 @@ export default function TaskInput(props: ITaskInputProps) {
 
   return (
     <div className='mb-2'>
-      <h1 className={style.title}>Todo list type script</h1>
+      <h1 className={style.title}>Todo List</h1>
       <form className={style.form} onSubmit={handleSubmit}>
         <input
           value={currentTodo ? currentTodo.name : value}
           onChange={handleChange}
           type='text'
-          placeholder='caption goes here'
+          placeholder='Note here'
         />
         <button type='submit'>{currentTodo ? '✔' : '+'}</button>
       </form>

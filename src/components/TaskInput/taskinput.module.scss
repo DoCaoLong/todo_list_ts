@@ -14,11 +14,12 @@
     padding: 0 1rem;
     outline: none;
     border: 1px solid #ccc;
-    caret-color: greenyellow;
+    caret-color: blue;
   }
   input:focus {
-    border: 1px solid rgb(173, 255, 47);
-    background-color: rgba(172, 255, 47, 0.097);
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 255, 0.052);
+    box-shadow: 0 0 0 4px rgba(0, 0, 255, 0.118);
   }
   button {
     flex-shrink: 0;

@@ -13,12 +13,14 @@
   max-width: 10%;
   height: 2rem;
   margin-top: 0.5rem;
+  cursor: pointer;
 }
 .taskName {
   flex: 0 0 70%;
   max-width: 70%;
   padding: 0 0 0.5rem;
   color: #383f50;
+  word-wrap: break-word;
   &.taskNameDone {
     color: #b2b7bb;
     text-decoration: line-through;
@@ -35,4 +37,5 @@
   flex: 0 0 3.5rem;
   max-width: 3.5rem;
   font-size: 1.8rem;
+  cursor: pointer;
 }

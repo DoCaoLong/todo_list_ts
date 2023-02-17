@@ -3,3 +3,6 @@ export interface ITodo {
   id: string
   done: boolean
 }
+export interface IHandleNewTodos {
+  (todos: ITodo[]): ITodo[]
+}
